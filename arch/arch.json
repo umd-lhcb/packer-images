@@ -64,17 +64,17 @@
         {
             "type": "file",
             "source": "conf/.xinitrc",
-            "script": "/home/vagrant"
+            "destination": "/home/vagrant"
         },
         {
             "type": "file",
             "source": "conf/.zshrc",
-            "script": "/home/vagrant"
+            "destination": "/home/vagrant"
         },
         {
             "type": "file",
             "source": "conf/.zlogin",
-            "script": "/home/vagrant"
+            "destination": "/home/vagrant"
         },
         {
             "type": "shell",
