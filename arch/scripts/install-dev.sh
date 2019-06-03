@@ -10,6 +10,7 @@ chsh -s /usr/bin/zsh vagrant
 # Install docker
 /usr/bin/pacman -S --noconfirm docker
 /usr/bin/usermod -aG docker vagrant
+/usr/bin/systemctl enable docker
 
 # Install sublime
 /usr/bin/curl -O https://download.sublimetext.com/sublimehq-pub.gpg && /usr/bin/pacman-key --add sublimehq-pub.gpg && /usr/bin/pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg
