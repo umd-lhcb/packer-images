@@ -37,18 +37,18 @@
             "type": "shell",
             "execute_command": "{{ .Vars }} COUNTRY={{ user `country` }} sudo -E -S bash '{{ .Path }}'",
             "expect_disconnect": true,
-            "script": "../scripts/install-base.sh"
+            "script": "scripts/install-base.sh"
         },
         {
             "only": ["virtualbox-iso"],
             "type": "shell",
             "execute_command": "{{ .Vars }} sudo -E -S bash '{{ .Path }}'",
-            "script": "../scripts/install-virtualbox.sh"
+            "script": "scripts/install-virtualbox.sh"
         },
         {
             "type": "shell",
             "execute_command": "{{ .Vars }} sudo -E -S bash '{{ .Path }}'",
-            "script": "../scripts/cleanup.sh"
+            "script": "scripts/cleanup.sh"
         }
     ]
 }
