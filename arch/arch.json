@@ -24,6 +24,8 @@
                 "/usr/bin/bash ./enable-ssh.sh<enter>"
             ],
             "disk_size": 102400,
+            "cpus": 4,
+            "memory": 4096,
             "hard_drive_interface": "sata",
             "ssh_username": "vagrant",
             "ssh_password": "vagrant",
