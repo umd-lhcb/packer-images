@@ -59,6 +59,21 @@
         {
             "type": "shell",
             "execute_command": "{{ .Vars }} sudo -E -S bash '{{ .Path }}'",
+            "script": "scripts/install-dev.sh"
+        },
+        {
+            "type": "file",
+            "source": "conf/.zshrc",
+            "script": "/home/vagrant"
+        },
+        {
+            "type": "file",
+            "source": "conf/.zlogin",
+            "script": "/home/vagrant"
+        },
+        {
+            "type": "shell",
+            "execute_command": "{{ .Vars }} sudo -E -S bash '{{ .Path }}'",
             "script": "scripts/cleanup.sh"
         }
     ]
