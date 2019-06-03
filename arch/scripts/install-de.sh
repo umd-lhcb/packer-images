@@ -1,7 +1,7 @@
 #!/usr/bin/bash -x
 
 # Install X11
-/usr/bin/pacman -S xorg-xserver
+/usr/bin/pacman -S xorg-server
 
 # Install Xfce
 /usr/bin/pacman -S --noconfirm xfce4
