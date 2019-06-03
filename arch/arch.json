@@ -63,18 +63,18 @@
         },
         {
             "type": "file",
-            "source": "conf/.xinitrc",
-            "destination": "/home/vagrant"
+            "source": "conf/xinitrc",
+            "destination": "/home/vagrant/.xinitrc"
         },
         {
             "type": "file",
-            "source": "conf/.zshrc",
-            "destination": "/home/vagrant"
+            "source": "conf/zshrc",
+            "destination": "/home/vagrant/.zshrc"
         },
         {
             "type": "file",
-            "source": "conf/.zlogin",
-            "destination": "/home/vagrant"
+            "source": "conf/zlogin",
+            "destination": "/home/vagrant/.zlogin"
         },
         {
             "type": "shell",
