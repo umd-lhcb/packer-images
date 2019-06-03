@@ -2,6 +2,11 @@
 Packer images for reproducible develop environments.
 
 
+## Installation
+Install `packer` and `virtualbox` with your favorite package manager. In case
+of Windows, download these installers from their official websites.
+
+
 ## Build
 Install `packer` and `virtualbox` in your system. Then go to `arch` folder:
 ```
