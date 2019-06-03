@@ -13,7 +13,7 @@ FQDN='vagrant-arch.vagrantup.com'
 KEYMAP='us'
 LANGUAGE='en_US.UTF-8'
 PASSWORD=$(/usr/bin/openssl passwd -crypt 'vagrant')
-TIMEZONE='EST'
+TIMEZONE='EST5EDT'
 
 CONFIG_SCRIPT='/usr/local/bin/arch-config.sh'
 ROOT_PARTITION="${DISK}1"
