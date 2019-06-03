@@ -25,8 +25,8 @@
             ],
             "disk_size": 102400,
             "hard_drive_interface": "sata",
-            "ssh_username": "developer",
-            "ssh_password": "developer",
+            "ssh_username": "vagrant",
+            "ssh_password": "vagrant",
             "ssh_timeout": "{{ user `ssh_timeout` }}",
             "shutdown_command": "sudo systemctl start poweroff.timer",
             "headless" : "{{ user `headless`}}"
