@@ -9,3 +9,4 @@ chsh -s /usr/bin/zsh vagrant
 
 # Install docker
 /usr/bin/pacman -S --noconfirm docker
+/usr/bin/usermod -aG docker vagrant
