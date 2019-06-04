@@ -5,7 +5,7 @@
 chsh -s /usr/bin/zsh vagrant
 
 # Install git & friends
-/usr/bin/pacman -S --noconfirm git tig git-annex
+/usr/bin/pacman -S --noconfirm git tig git-annex vim
 
 # Install docker
 /usr/bin/pacman -S --noconfirm docker
