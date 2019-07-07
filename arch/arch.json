@@ -55,7 +55,7 @@
         {
             "type": "shell",
             "execute_command": "{{ .Vars }} sudo -E -S bash '{{ .Path }}'",
-            "script": "scripts/install-de.sh"
+            "script": "scripts/install-gui.sh"
         },
         {
             "type": "shell",
