@@ -4,17 +4,17 @@
 /usr/bin/pacman -S --noconfirm zsh
 chsh -s /usr/bin/zsh vagrant
 
-# Install git & friends
-/usr/bin/pacman -S --noconfirm git tig git-annex vim
+# Install git & other basic tools
+/usr/bin/pacman -S --noconfirm git tig git-annex vim xorg-xset
 
 # Install clang
 /usr/bin/pacman -S --noconfirm clang
 
-# Install ROOT
-/usr/bin/pacman -S --noconfirm root
-
 # Install Python and pip
 /usr/bin/pacman -S --noconfirm python python-pip
+
+# Install ROOT
+/usr/bin/pacman -S --noconfirm root
 
 # Install docker
 /usr/bin/pacman -S --noconfirm docker
