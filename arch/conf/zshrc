@@ -442,4 +442,20 @@ if [[ -f $HOME/.zshrc.host ]]; then
     . $HOME/.zshrc.host
 fi
 
+git_info_update() {
+    echo "Please input git username:"
+    read username
+    echo "Please input git email address:"
+    read email
+
+    git config --global user.name ${username}
+    git config --global user.email ${email}
+}
+
+# Prompt user to provide git user info, if info doesn't exist
+if [[ ! -f $HOME/.gitconfig ]] && xset q &>/dev/null; then
+    echo "Looks like git username and email address haven't been configured!"
+    git_info_update
+fi
+
 #}}}
