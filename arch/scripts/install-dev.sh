@@ -7,6 +7,15 @@ chsh -s /usr/bin/zsh vagrant
 # Install git & friends
 /usr/bin/pacman -S --noconfirm git tig git-annex vim
 
+# Install clang
+/usr/bin/pacman -S --noconfirm clang
+
+# Install ROOT
+/usr/bin/pacman -S --noconfirm root
+
+# Install Python and pip
+/usr/bin/pacman -S --noconfirm python python-pip
+
 # Install docker
 /usr/bin/pacman -S --noconfirm docker
 /usr/bin/usermod -aG docker vagrant
