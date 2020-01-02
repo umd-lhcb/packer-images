@@ -12,8 +12,7 @@
             "type": "virtualbox-iso",
             "vboxmanage": [
                 ["modifyvm", "{{ .Name }}", "--vram", "64"],
-                ["modifyvm", "{{ .Name }}", "--chipset", "ich9"],
-                ["modifyvm", "{{ .Name }}", "--clipboard", "bidirectional"]
+                ["modifyvm", "{{ .Name }}", "--chipset", "ich9"]
             ],
             "iso_url": "{{ user `iso_url` }}",
             "iso_checksum_url": "{{ user `iso_checksum_url` }}",
